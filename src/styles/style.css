@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Neucha';
-    src: url('../../assets/fonts/Neucha-Regular.ttf');
+    src: url('../../assets/images/fonts/Neucha-Regular.ttf');
 }
 
 @font-face {
@@ -38,6 +38,10 @@ p {
     line-height: 1.6em;
 
     color: #2A2626;
+}
+
+p + p {
+    margin-top: 15px;
 }
 
 h1 {
@@ -97,14 +101,24 @@ h1 {
 }
 
 .column {
+    margin-bottom: 70px;
+    
     column-count: 2;
     column-gap: 30px;
 }
 
 button {
+    position: absolute;
+    
+    margin-top: 40px;
+    width: 148px;
+    height: 49px;
+    
     background-color: #fe8a02;
     font-family: 'Open-Sans';
     color: #F5F4F0;
-    font-weight: 800;
-    outline: #fe8a02;
+    font-weight: 700;
+    font-size: 16px;
+    
+    border: #F5F4F0;
 }
