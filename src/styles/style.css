@@ -44,9 +44,64 @@ p + p {
     margin-top: 15px;
 }
 
+.size-24 {
+    font-size: 24px;
+}
+
+.size-34 {
+    font-size: 34px;
+}
+
+.size-52 {
+    font-size: 52px;
+}
+
+.size-60 {
+    font-size: 60px;
+}
+
+.card-number-style {
+    font-size: 64px;
+    font-family: 'Neucha';
+    line-height: 1;
+    
+    padding-bottom: 25px;
+
+    color: #42413C;
+}
+
 h1 {
     font-size: 72px;
     font-weight: 400;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 34px;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Open-Sans';
+    font-size: 14px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+h2 + p {
+    margin-top: 30px;
+}
+
+h3 + p {
+    padding-top: 12px;
+}
+
+.h2-center {
+    text-align: center;
 }
 
 .bg-image {
@@ -80,13 +135,30 @@ h1 {
     padding: 100px 0;
 }
 
-.programming {
+.color-dark {
     font-family: 'Neucha';
-    font-size: 72px;
     font-weight: 400;
-    line-height: 1.2em;
 
     color: #2A2626;
+}
+
+.color-grey {
+    font-family: 'Neucha';
+    font-weight: 400;
+
+    color: #908D8B;  
+}
+
+.height-26 {
+    height: 26px;
+}
+
+.bg-color-primary-dark {
+    background-color: #42413C;
+}
+
+.bg-color-boogie {
+    background-color: #B09A81;
 }
 
 .main-image {
@@ -98,9 +170,18 @@ h1 {
 
 .bg-color-light {
     background-color: #F5F4F0;
+    background-attachment: fixed
 }
 
-.column {
+.bg-color-white {
+    background-color: #F5F4F0;
+}
+
+.font-color-white {
+    color: #FFFFFF;
+}
+
+.column-text {
     margin-bottom: 70px;
     
     column-count: 2;
@@ -121,4 +202,71 @@ button {
     font-size: 16px;
     
     border: #F5F4F0;
+}
+
+button:hover {
+    background-color: #42413c;
+}
+
+.video-section {
+    height: 800px;
+}
+
+.card-section {
+    height: 1000px;
+}
+
+.card-container {
+    position: relative;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: 1110px;
+    height: 900px;
+
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
+.video {
+    position: absolute;
+    
+    top: 325px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.card {
+    width: 350px;
+    height: 323px;
+    margin: 10px;
+    padding: 24px;
+}
+
+.margin-10 {
+    width: 350px;
+    height: 323px;
+    margin: 10px;
+}
+
+.card:hover {
+    background-color: #d7ccc0;
+}
+
+.ikea-image {
+    width: 578px;
+    height: 434px;
+    vertical-align: middle;
+
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+.column-img {
+    column-count: 2;
+    column-gap: 100px;
 }
