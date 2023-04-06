@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Neucha';
-    src: url('../../assets/images/fonts/Neucha-Regular.ttf');
+    src: url('../fonts/Neucha-Regular.ttf');
 }
 
 @font-face {
     font-family: 'Open-Sans';
-    src: url('../../assets/images/fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
 }
 
 * {
@@ -124,7 +124,7 @@ h3 + p {
     position: absolute;
     background-repeat: no-repeat;
     background-size: cover;
-    background-image: url('../../assets/images/background.png');
+    background-image: url('../images/background.png');
     
     content: "";
     width: 100%;
@@ -367,7 +367,7 @@ h3 + p {
 .bg-icon::before {
     position: absolute;
     
-    content: url('../../assets/images/send.svg');
+    content: url('../images/send.svg');
 
     width: 100%;
 }
