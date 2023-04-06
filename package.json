@@ -2,6 +2,10 @@
   "devDependencies": {
     "htmlhint": "^1.1.4",
     "stylelint": "^15.4.0",
+    "stylelint-config-prettier": "^9.0.5",
     "stylelint-config-standard": "^30.0.1"
+  },
+  "dependencies": {
+    "stylelint-config-primer": "^11.1.1"
   }
 }

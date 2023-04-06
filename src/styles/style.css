@@ -1,10 +1,10 @@
 @font-face {
-  font-family: Neucha;
+  font-family: "Neucha";
   src: url('../fonts/Neucha-Regular.ttf');
 }
 
 @font-face {
-  font-family: Open-Sans;
+  font-family: "Open-Sans";
   src: url('../fonts/OpenSans-Regular.ttf');
 }
 
@@ -21,11 +21,11 @@ h1,
 h2,
 h3,
 h4 {
-z-index: 1;
-margin: 0;
-color: #fe8a02;
-font-family: Neucha, sans-serif;
-line-height: 1.2em;
+  z-index: 1;
+  margin: 0;
+  color: #fe8a02;
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
 }
 
 p {
@@ -33,7 +33,7 @@ p {
   font-family: Open-Sans, serif;
   font-size: 16px;
   line-height: 1.6em;
-  color: #FFF;
+  color: #fff;
 }
 
 p + p {
@@ -70,7 +70,7 @@ p + p {
   font-family: Neucha, sans-serif;
   line-height: 1;
   padding-bottom: 25px;
-  color: #42413C;
+  color: #42413c;
 }
 
 h1 {
@@ -94,7 +94,7 @@ h4 {
   font-size: 14px;
   font-weight: 700;
   padding: 5px 10px;
-  color: #FFF;
+  color: #fff;
 }
 
 h2 + p {
@@ -155,7 +155,7 @@ h3 + p {
 .color-grey {
   font-family: Neucha, sans-serif;
   font-weight: 400;
-  color: #908D8B;  
+  color: #908D8B;
 }
 
 .color-light-grey {
@@ -255,7 +255,7 @@ h3 + p {
   padding: 200px 0;
 }
 
-.video { 
+.video {
   display: block;
   margin: 0 auto;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
@@ -279,7 +279,7 @@ h3 + p {
   background-color: #d7ccc0;
 }
 
-.section-image { 
+.section-image {
   max-width: 578px;
   height: 434px;
   vertical-align: middle;
@@ -313,7 +313,7 @@ h3 + p {
   border: none;
 }
 
-.footer-button {  
+.footer-button {
   display: flex;
   justify-content: center;
   align-items: center;
