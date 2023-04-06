@@ -5,3 +5,4 @@ assets/
 Makefile
 package-lock.json
 package.json
+.surgeignore
