@@ -1,10 +1,10 @@
 @font-face {
-  font-family: 'Neucha';
+  font-family: Neucha, serif;
   src: url('../fonts/Neucha-Regular.ttf');
 }
 
 @font-face {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans, serif;
   src: url('../fonts/OpenSans-Regular.ttf');
 }
 
@@ -22,22 +22,18 @@ h2,
 h3,
 h4 {
 z-index: 1;
-
 margin: 0;
-
 color: #fe8a02;
-font-family: 'Neucha', sans-serif;
+font-family: Neucha, sans-serif;
 line-height: 1.2em;
 }
 
 p {
   margin: 0;
-  
-  font-family: 'Open-Sans';
+  font-family: Open-Sans, serif;
   font-size: 16px;
   line-height: 1.6em;
-
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 p + p {
@@ -66,17 +62,14 @@ p + p {
 
 .position-relative {
   position: relative;
-
   bottom: 100px;
 }
 
 .card-number-style {
   font-size: 64px;
-  font-family: 'Neucha';
+  font-family: Neucha, sans-serif;
   line-height: 1;
-  
   padding-bottom: 25px;
-
   color: #42413C;
 }
 
@@ -96,12 +89,12 @@ h3 {
 }
 
 h4 {
-  font-family: 'Open-Sans';
+  font-family: Open-Sans, serif;
   text-align: start;
   font-size: 14px;
   font-weight: 700;
   padding: 5px 10px;
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 h2 + p {
@@ -127,66 +120,54 @@ h3 + p {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url('../images/background.png');
-  
   content: "";
   width: 100%;
   height: 100%;
-
   opacity: 0.1;
 }
 
 .container {
   position: relative;
-
   display: flex;
   flex-direction: column;
-
   max-width: 1110px;
   min-height: 900px;
-
   margin: 0 auto;
   padding: 100px 0;
 }
 
 .footer-container {
   position: relative;
-
   display: flex;
   flex-direction: column;
-
   max-width: 1110px;
   min-height: 581px;
-
   margin: 0 auto;
   padding: 100px 0;
 }
 
 .color-dark {
-  font-family: 'Neucha';
+  font-family: Neucha, sans-serif;
   font-weight: 400;
-
   color: #2A2626;
 }
 
 .color-grey {
-  font-family: 'Neucha';
+  font-family: Neucha, sans-serif;
   font-weight: 400;
-
   color: #908D8B;  
 }
 
 .color-light-grey {
-  font-family: 'Neucha';
+  font-family: Neucha, sans-serif;
   font-weight: 400;
-
   color: #D7CCC0;
 }
 
 .color-white {
-  font-family: 'Neucha';
+  font-family: Neucha, sans-serif;
   font-weight: 400;
-  
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .color-primary-dark {
@@ -226,7 +207,7 @@ h3 + p {
 }
 
 .font-color-white {
-  color: #FFFFFF;
+  color: #FFF;
 }
 
 .column-text {
@@ -240,17 +221,14 @@ h3 + p {
 
 .header-button {
   position: absolute;
-  
   margin-top: 40px;
   width: 148px;
   height: 49px;
-
   background-color: #fe8a02;
-  font-family: 'Open-Sans';
+  font-family: Open-Sans, serif;
   color: #F5F4F0;
   font-weight: 700;
   font-size: 16px;
-  
   border: #F5F4F0;
 }
 
@@ -268,15 +246,11 @@ h3 + p {
 
 .card-container {
   position: relative;
-  
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  flex-flow: row wrap;
   justify-content: flex-start;
-
   width: 1110px;
   height: 900px;
-
   margin: 0 auto;
   padding: 200px 0;
 }
@@ -289,7 +263,6 @@ h3 + p {
 
 .card {
   position: relative;
-
   width: 350px;
   height: 323px;
   margin: 10px;
@@ -310,23 +283,19 @@ h3 + p {
   max-width: 578px;
   height: 434px;
   vertical-align: middle;
-
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
 .column-img {
   display: flex;
   flex-direction: row;
-
   margin-bottom: 100px;
 }
 
 .rectangle {
   display: flex;
   justify-content: space-between;
-
   margin-bottom: 60px;
-
   background-color: #42413C;
 }
 
@@ -341,7 +310,6 @@ h3 + p {
   width: 413px;
   height: 50px;
   padding: 15px;
-
   border: none;
 }
 
@@ -349,12 +317,9 @@ h3 + p {
   display: flex;
   justify-content: center;
   align-items: center;
-  
   width: 70px;
   height: 50px;
-
   background-color: #FE8A02;
-  
   border: none;
 }
 
@@ -364,19 +329,15 @@ h3 + p {
 
 .bg-icon::before {
   position: absolute;
-  
   content: url('../images/send.svg');
-
   width: 100%;
 }
 
 .navigate {
   position: absolute;
   display: block;
-
   top: 0;
   right: 0;
-  
   width: 350px;
   height: 323px;
 }
@@ -384,10 +345,8 @@ h3 + p {
 .navigate-button {
   position: absolute;
   display: block;
-
   top: 0;
   right: 0;
-  
   width: 148px;
   height: 49px;
 }
