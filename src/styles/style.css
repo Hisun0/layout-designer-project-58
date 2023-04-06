@@ -105,6 +105,7 @@ h4 {
 }
 
 h2 + p {
+    line-height: normal;
     margin-top: 30px;
 }
 
@@ -308,8 +309,8 @@ h3 + p {
     background-color: #d7ccc0;
 }
 
-.section-image {
-    width: 578px;
+.section-image { 
+    max-width: 578px;
     height: 434px;
     vertical-align: middle;
 
