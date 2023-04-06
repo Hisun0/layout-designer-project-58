@@ -315,10 +315,10 @@ h3 + p {
 }
 
 .column-img {
+    display: flex;
+    flex-direction: row;
+
     margin-bottom: 100px;
-    
-    column-count: 2;
-    column-gap: 100px;
 }
 
 .rectangle {
