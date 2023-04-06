@@ -114,6 +114,7 @@ h3 + p {
 }
 
 .h2-center {
+    margin-bottom: 30px;
     text-align: center;
 }
 
@@ -258,6 +259,7 @@ h3 + p {
 }
 
 .video-section {
+    text-align: center;
     height: 805px;
 }
 
@@ -280,13 +282,9 @@ h3 + p {
     padding: 200px 0;
 }
 
-.video {
-    position: absolute;
-    
-    top: 327px;
-    left: 50%;
-    transform: translateX(-50%);
-    
+.video { 
+    display: block;
+    margin: 0 auto;
     filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
 
