@@ -37,11 +37,15 @@ p {
     font-size: 16px;
     line-height: 1.6em;
 
-    color: #2A2626;
+    color: #FFFFFF;
 }
 
 p + p {
     margin-top: 15px;
+}
+
+.size-12 {
+    font-size: 12px;
 }
 
 .size-24 {
@@ -142,6 +146,19 @@ h3 + p {
     padding: 100px 0;
 }
 
+.footer-container {
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    max-width: 1110px;
+    min-height: 581px;
+
+    margin: 0 auto;
+    padding: 100px 0;
+}
+
 .color-dark {
     font-family: 'Neucha';
     font-weight: 400;
@@ -168,6 +185,10 @@ h3 + p {
     font-weight: 400;
     
     color: #FFFFFF;
+}
+
+.color-primary-dark {
+    color: #42413C;
 }
 
 .height-26 {
@@ -211,13 +232,17 @@ h3 + p {
     column-gap: 30px;
 }
 
+.header-text {
+    padding-top: 200px;
+}
+
 .header-button {
     position: absolute;
     
     margin-top: 40px;
     width: 148px;
     height: 49px;
-    
+
     background-color: #fe8a02;
     font-family: 'Open-Sans';
     color: #F5F4F0;
@@ -265,6 +290,8 @@ h3 + p {
 }
 
 .card {
+    position: relative;
+
     width: 350px;
     height: 323px;
     margin: 10px;
@@ -343,4 +370,30 @@ h3 + p {
     content: url('../../assets/images/send.svg');
 
     width: 100%;
+}
+
+.navigate {
+    position: absolute;
+    display: block;
+
+    top: 0;
+    right: 0;
+    
+    width: 350px;
+    height: 323px;
+}
+
+.navigate-button {
+    position: absolute;
+    display: block;
+
+    top: 0;
+    right: 0;
+    
+    width: 148px;
+    height: 49px;
+}
+
+.footer-info {
+    text-align: center;
 }
